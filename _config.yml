@@ -6,19 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: ACMI Audio Guide
-email: your-email@example.com
+title: audioreflex
+email: email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  A web-based audio guide theme for Jekyll.
+  audioguia
 baseurl: "" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
-url: "http://www.example.com" # the base hostname & protocol for your site
-logo: "/assets/img/logo/audio-guide.png"
-twitter_username: acmilabs
-github_username:  acmilabs
-menu_heading: "Select another stop"
-index_page_text: "Select an audio guide stop to begin."
+url: "https://github.com/audioreflex" # the base hostname & protocol for your site
+logo: "/assets/img/logo/logo_audioreflex.png"
+twitter_username: goethesaopaulo
+github_username:  audioreflex
+menu_heading: "Selecione outra parada"
+index_page_text: "Escolha um percurso"
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
 

@@ -16,12 +16,12 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       	#fafafa;
-$background-hr:		#383838;
-$background-color: 	#222222;
+$text-color:       	#adb3b6;
+$background-hr:		#adb3b6;
+$background-color: 	#f8f8f6;
 $background-darker: #1B1B1B;
-$brand-color:	   	#43A047;
-$anchor-hover-color:	lighten($brand-color, 30%);
+$brand-color:	   	#a0c814; // Goethe-Institut: #a0c814
+$anchor-hover-color:	darken($brand-color, 5%);
 
 $player-now-playing-size:   13px;
 $player-height:		64px;
@@ -33,13 +33,13 @@ $player-progress-color:		lighten($brand-color, 10%);
 $player-play-color:		lighten($brand-color, 5%);
 $player-progress-height: 10px;
 
-$tile-bgcolor:	   $brand-color;
+$tile-bgcolor:	   #adb3b6;
 $tile-color:	   #fafafa;
 $tile-size:		   56px;
 $tile-size-large:  64px;
 $tile-border-radius:	2px;
 
-$grey-color:       $brand-color;
+$grey-color:       #474d50;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
