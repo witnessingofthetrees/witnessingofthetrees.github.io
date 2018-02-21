@@ -5,12 +5,7 @@ layout: master
 
 <div class="home">
 
-  <p>(em breve)</p>
-
-
   <p>{{ site.index_page_text }}</p>
-
-
 
   <ul class="tour-list">
     <li>
@@ -32,7 +27,6 @@ layout: master
 
 <!--
 
-
   <ul class="post-list">
     {% assign pages = site.pages | sort: 'page_rank' %}
     {% for my_page in pages %}{% if (my_page.section_title != null) and my_page.type == 'stop' %}<li>
@@ -47,6 +41,7 @@ For reference: This is a list of all the stops and titles in this audio guide
 
 {% assign pages = site.pages | sort: 'page_rank' %}
     {% for my_page in pages %}{% if (my_page.section_title != null) and my_page.type == 'stop' %}
+<br/>
 Stop #: {{ my_page.stop_id }}
 Section Title: {{ my_page.section_title }}
 Title: {{ my_page.title }}
@@ -54,7 +49,7 @@ Title: {{ my_page.title }}
 
 -->
   
-<!--
+<!-- 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 -->
 </div>
