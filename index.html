@@ -7,6 +7,7 @@ layout: master
 
   <p>{{ site.index_page_text }}</p>
 
+<!--
   <ul class="tour-list">
     <li>
           <span class="tour-item">
@@ -24,8 +25,7 @@ layout: master
             Rita Natálio</span>
       </li>
   </ul>
-
-<!--
+-->
 
   <ul class="post-list">
     {% assign pages = site.pages | sort: 'page_rank' %}
@@ -36,7 +36,7 @@ layout: master
       </li>{% endif %}{% endfor %}
   </ul>
 
-
+<!--
 For reference: This is a list of all the stops and titles in this audio guide
 
 {% assign pages = site.pages | sort: 'page_rank' %}
