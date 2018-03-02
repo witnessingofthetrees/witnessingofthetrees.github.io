@@ -145,6 +145,9 @@
     #border-top: 1px solid $background-hr;
     padding-top: 0em;
     #text-align: right;
+    #background-color: #dddddd;
+    padding: 1em;
+
     img {
         display: inline-block;
         margin-bottom: 2em;
@@ -377,7 +380,7 @@
 }
 
 .post-title {
-    font-size: 26px;
+    font-size: 20px;
     //letter-spacing: -1px;
     line-height: 1;
 
@@ -390,15 +393,14 @@
     .post-header-stop-id {
         color: #ffffff;
         display: inline-block;
-        font-size: 26px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 20px;
         text-align: center;
         vertical-align: center;
         border-radius: $tile-border-radius;
         margin: 0 auto;
         //background-color: $tile-bgcolor;
         background-size: 100%;
-        color: $tile-color;
         width: $tile-size-large;
         height: $tile-size-large;
         span {
@@ -410,28 +412,27 @@
         
     }
     .post-header-section-title {
-        //color: lighten($brand-color, 20%);
+        color: $text-color;
         display: inline-block;
-        color: lighten($brand-color, 50%);
-        font-size: 26px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 20px;
         margin-top: 0;
         margin-bottom: 0.25em;
         text-align: center;
     }
     .post-header-title {
-        color: lighten($brand-color, 10%);
+        color: $text-color;
         font-size: 20px;
-        line-height: 26px;
+        line-height: 20px;
         margin-top: 0;
         margin-bottom: 0;
         text-align: center;
-        padding-top: 0.5em;
-        border-top: 1px solid $background-hr;
+        //padding-top: 0.5em;
+        //border-top: 1px solid $background-hr;
         text-align: left;
     }
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $background-hr;
+    #padding-bottom: 0.5em;
+    #border-bottom: 1px solid $background-hr;
 }
 
 .post-content {
@@ -439,7 +440,7 @@
     margin-bottom: 106px;
 
     h2 {
-        font-size: 26px;
+        font-size: 20px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -540,6 +541,7 @@ Audio Player Styling
 .player-now-playing {
     display: block;
     font-size: $player-now-playing-size;
+    color: $text-color;
     line-height: $player-now-playing-size;
     //height: $player-now-playing-size * 3;
     //height: auto;
@@ -669,4 +671,8 @@ audio {
 }
 .rita {
     color: $rita-color;
+}
+
+.marginleft {
+        margin-left: 1em;
 }

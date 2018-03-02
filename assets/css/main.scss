@@ -3,16 +3,17 @@
 ---
 @charset "utf-8";
 
-// Museum variables
+$grey-color:       #b1b3b5;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
 
-$goethe-green: #a0c814;
-$goethe-blue: #47abd8;
-$museuimigracao-red: #EE2D24;
 
-$ariel-color: $museuimigracao-red;
-$claudia-color: $goethe-green;
-$rita-color: $goethe-blue;
-
+$ariel-color: #00738a;
+$ariel-text-color: #ffffff;
+$claudia-color: darken($grey-color, 30%);
+$claudia-text-color: #ffffff;
+$rita-color: #ffec00;
+$rita-text-color: #ffffff;
 
 // Our variables
 $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -25,32 +26,30 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       	#adb3b6;
-$background-hr:		#adb3b6;
-$background-color: 	#333333;
-$background-darker: #1B1B1B;
-$brand-color:	   	#EE2D24; // Goethe-Institut: #a0c814 MI: #EE2D24
-$anchor-hover-color:	darken($brand-color, 5%);
+$text-color:        #ffffff;
+$background-hr:     $grey-color;
+$background-color:  $grey-color; // #b1b3b5
+$background-darker: $grey-color;
+$brand-color:       $claudia-color; // Goethe-Institut: #a0c814 MI: #EE2D24
+$anchor-hover-color:    darken($brand-color, 5%);
 
-$player-now-playing-size:   13px;
-$player-height:		64px;
-$player-button-size:	48px;
-$player-bgcolor:	$brand-color;
-$player-scrubber-color:	darken($brand-color, 1%);
-$player-loaded-color:	darken($brand-color, 5%);
-$player-progress-color:		lighten($brand-color, 10%);
-$player-play-color:		lighten($brand-color, 5%);
+$player-now-playing-size:   20px;
+$player-height:     64px;
+$player-button-size:    48px;
+$player-bgcolor:    $brand-color;
+$player-scrubber-color: darken($brand-color, 1%);
+$player-loaded-color:   darken($brand-color, 5%);
+$player-progress-color:     lighten($brand-color, 10%);
+$player-play-color:     lighten($brand-color, 5%);
 $player-progress-height: 10px;
+$player-now-playing-color: $player-progress-color; // for the caption
 
-$tile-bgcolor:	   #adb3b6;
-$tile-color:	   #fafafa;
-$tile-size:		   56px;
+
+$tile-bgcolor:     $brand-color;
+$tile-color:       #ffffff;
+$tile-size:        56px;
 $tile-size-large:  64px;
-$tile-border-radius:	2px;
-
-$grey-color:       #474d50;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$tile-border-radius:    2px;
 
 // Width of the content area
 $content-width:    800px;

@@ -6,19 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: audioreflex - Claudia Bosse - witnessing of the trees
+title: Witnessing of the trees
+artist: Claudia Bosse
+project: audioreflex
 email: email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  audioguia
+  Claudia Bosse
 baseurl: "" # the subpath of your site, e.g. /blog
+projecturl: "https://audioreflex.github.io"
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 url: "https://github.com/witnessingofthetrees" # the base hostname & protocol for your site
-logo: "/assets/img/logo/logo_audioreflex.png"
+logo: "/assets/img/logo/audioreflex_750x155.png"
 twitter_username: goethesaopaulo
 github_username:  audioreflex
-menu_heading: "Selecione outro áudio"
-index_page_text: "Escolha um áudio"
+menu_heading: "Selecione outra faixa"
+index_page_text: "Escolha uma faixa"
 count_stops: 7
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
